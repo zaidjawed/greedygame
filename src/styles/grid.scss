@@ -1,0 +1,33 @@
+.grid {
+
+  &__container {
+    margin-top: 30px;
+    padding: 0 20px;
+  }
+
+  &__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__title {
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+
+  &__body {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+    font-size: 1.2rem;
+    font-weight: 400;
+    overflow: hidden;
+  }
+
+  &__item {
+    border-bottom: 1px solid #eee;
+    padding: 10px 5px;
+  }
+}
